@@ -22,14 +22,20 @@ export class Router {
     const currentPage = document.querySelector(".current-page");
     const addLightToA = document.querySelector(`a[href="${pathname}"]`);
 
+    document.body.className = "";
+
+    if (addCss) {
+      document.body.classList.add(addCss);
+    }
+
     appElement.classList = "";
 
     if (addCss) {
       appElement.classList.add(addCss);
     }
 
-    if (pathname === "/" || pathname === "" && addCss) {
-      appElement.classList.add("home")
+    if (pathname === "/" || (pathname === "" && addCss)) {
+      appElement.classList.add("home");
     }
 
     if (currentPage) {

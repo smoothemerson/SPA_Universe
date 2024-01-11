@@ -13,8 +13,6 @@
 }
 
 body {
-  background: url("./assets/mountains-universe-1.png") center/cover no-repeat
-    fixed;
   font-size: 1.6rem;
 }
 
@@ -48,14 +46,7 @@ nav a {
   align-items: center;
 
   height: 100vh;
-  margin-top: -12rem;
-}
-
-.universe,
-.exploration,
-.error {
-  height: 100vh;
-  margin-left: 10rem;
+  margin-top: -12.2rem;
 }
 
 .home h1,
@@ -68,7 +59,7 @@ nav a {
   font-weight: 700;
   line-height: 6rem;
 
-  margin-top: 6rem;
+  margin: 6rem 0 0 5rem;
 }
 
 .home button {
@@ -101,7 +92,22 @@ nav a {
 
   text-align: justify;
 
-  margin-top: 2rem;
+  margin: 2rem 0 0 5rem;
+}
+
+.home {
+  background: url("./assets/home.png") center/cover no-repeat fixed;
+  height: 100vh;
+}
+
+.universe {
+  background: url("./assets/universe.png") center/cover no-repeat fixed;
+  height: 100vh;
+}
+
+.exploration {
+  background: url("./assets/exploration.png") center/cover no-repeat fixed;
+  height: 100vh;
 }
 
 .current-page {
