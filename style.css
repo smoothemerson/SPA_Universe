@@ -49,7 +49,14 @@ nav a {
   margin-top: -12.2rem;
 }
 
-.home h1,
+.home h1 {
+  color: var(--color-base-different-white);
+
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 6rem;
+}
+
 .universe h1,
 .exploration h1,
 .error h1 {
@@ -59,7 +66,7 @@ nav a {
   font-weight: 700;
   line-height: 6rem;
 
-  margin: 6rem 0 0 5rem;
+  margin: 6rem 0 0 10rem;
 }
 
 .home button {
@@ -92,7 +99,7 @@ nav a {
 
   text-align: justify;
 
-  margin: 2rem 0 0 5rem;
+  margin: 2rem 0 0 10rem;
 }
 
 .home {
