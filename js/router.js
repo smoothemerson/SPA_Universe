@@ -28,6 +28,10 @@ export class Router {
       appElement.classList.add(addCss);
     }
 
+    if (pathname === "/" || pathname === "" && addCss) {
+      appElement.classList.add("home")
+    }
+
     if (currentPage) {
       currentPage.classList.remove("current-page");
     }
